@@ -1,0 +1,60 @@
+{
+  "restaurant": [
+    {
+      "id": "1",
+      "name": "pizza-hut",
+      "address": "noida",
+      "rating": "4.5",
+      "email": "pizzahut@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "BurgerKing",
+      "address": "Lucknow",
+      "rating": "4.2",
+      "email": "burgerking@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Mr. Brown",
+      "address": "noida",
+      "rating": "4.9",
+      "email": "brown@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "MC Donald",
+      "address": "Lucknow",
+      "rating": "4.1",
+      "email": "mcd@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Wow Momos",
+      "address": "noida",
+      "rating": "4.5",
+      "email": "wowmomos@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "AY-7",
+      "address": "noida",
+      "rating": "3.5",
+      "email": "ay7@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "Fauzi Dhaba",
+      "address": "noida",
+      "rating": "3.5",
+      "email": "fauzi@gmail.com"
+    },
+    {
+      "id": "edba",
+      "name": "Sher -E- Punjab",
+      "email": "sher@gmail.com",
+      "address": "Lucknow",
+      "rating": "3.5"
+    }
+  ]
+}
