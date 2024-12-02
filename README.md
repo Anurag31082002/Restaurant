@@ -1,6 +1,3 @@
- ![image](https://github.com/user-attachments/assets/0b3e5a49-6bd7-40c6-b20c-e17fd8365489)
-
-
 # Restaurant Management App
 
 This project is a restaurant management application built with React for the frontend and JSON server for the backend. It allows users to add, delete, and view a list of restaurants.
@@ -10,25 +7,21 @@ This project is a restaurant management application built with React for the fro
 
 ## Getting Started with Create React App
 
-This project was bootstrapped with Create React App.
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 ## Learn More
 
-You can learn more in the Create React App documentation.
+You can learn more in the  ReactJs documentation.
 
 To learn React, check out the React documentation.
 https://react.dev/
-![image](https://github.com/user-attachments/assets/78691fdb-bfcd-41ed-8b0c-4662fbe018d4)
 
+![image](https://github.com/user-attachments/assets/78691fdb-bfcd-41ed-8b0c-4662fbe018d4)
 
 
 ## Project Overview
