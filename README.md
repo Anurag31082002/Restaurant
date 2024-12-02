@@ -21,6 +21,8 @@ You can learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
 https://react.dev/
+![image](https://github.com/user-attachments/assets/78691fdb-bfcd-41ed-8b0c-4662fbe018d4)
+
 
 
 ## Project Overview
@@ -38,18 +40,8 @@ The backend is powered by a JSON server. To start the JSON server, run:
 
 ```bash
 npx json-server --watch db.json --port 3001
-Frontend
-The frontend is built with React. To start the React app, run:
-
-https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format"
 
 
-Components
-Home: The landing page with a welcoming message and featured dishes.
-RestaurantCreate: A form to add new restaurants.
-RestaurantList: A list of all restaurants with options to edit or delete.
-RestaurantSearch: A search bar to find restaurants by name.
-RestaurantUpdate: A form to update restaurant details.
 How to Use
 Clone the repository.
 Install dependencies using npm install.
