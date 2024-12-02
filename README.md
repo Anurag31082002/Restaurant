@@ -1,4 +1,5 @@
-     ![image](https://github.com/user-attachments/assets/78691fdb-bfcd-41ed-8b0c-4662fbe018d4)
+ ![image](https://github.com/user-attachments/assets/0b3e5a49-6bd7-40c6-b20c-e17fd8365489)
+
 
 # Restaurant Management App
 
