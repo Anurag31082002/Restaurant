@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-span{
+.homespan{
   display:inline-block;
   background-color: rgb(209, 95, 28);
   padding: 10px;

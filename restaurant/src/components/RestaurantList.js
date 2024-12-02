@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 import { Table } from 'react-bootstrap'
+import {
+  Link,
+} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
+
 export default class RestaurantList extends Component {
   constructor() {
     super();
@@ -14,6 +20,22 @@ export default class RestaurantList extends Component {
       })
     })
   }
+  delete(id) {
+    fetch(`http://localhost:3000/restaurant/${id}`, {
+      method: "DELETE",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then((result) => {
+      result.json().then((resp) => {
+        alert('Are you sure you want to delete restaurant?');
+        this.setState({
+          list: this.state.list.filter(item => item.id !== id)
+        });
+      });
+    });
+  }
+
   render() {
     return (
       <div>
@@ -28,6 +50,7 @@ export default class RestaurantList extends Component {
                     <th>Rating</th>
                     <th>Email</th>
                     <th>Address</th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -40,6 +63,8 @@ export default class RestaurantList extends Component {
                       <td>{item.rating}</td>
                       <td>{item.email}</td>
                       <td>{item.address}</td>
+                      <td><Link to={`/update/${item.id}`}> <FontAwesomeIcon icon={faEdit} /></Link>
+                      <span onClick={()=>this.delete(item.id)}> <FontAwesomeIcon icon={faTrash} color="red" /></span></td>
                       
                     </tr>
                     )
