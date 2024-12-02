@@ -1,3 +1,5 @@
+     ![image](https://github.com/user-attachments/assets/78691fdb-bfcd-41ed-8b0c-4662fbe018d4)
+
 # Restaurant Management App
 
 This project is a restaurant management application built with React for the frontend and JSON server for the backend. It allows users to add, delete, and view a list of restaurants.
